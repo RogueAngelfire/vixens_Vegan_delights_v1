@@ -23,7 +23,6 @@ body {
     text-transform: uppercase;
 }
 
-
 /*  font taken from Adobe source */
 .main-logo-link {
     width: fit-content;
@@ -55,7 +54,14 @@ body {
 
 .text-black {
     color: #000 !important;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #747474;
 }
+
+h1.logo-font {
+    color: #e96f26 !important;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #747474;
 
 .border-black {
     border: 1px solid black !important;
